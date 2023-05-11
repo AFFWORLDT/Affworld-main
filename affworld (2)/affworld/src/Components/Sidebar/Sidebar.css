@@ -1,0 +1,75 @@
+.topbar {
+  background-color: #2B303B !important;
+  color: #ffffff !important;
+}
+
+.topbar button {
+  background: transparent;
+  border: none;
+  margin-right: 1.5rem;
+  padding: 0.5rem;
+  color: #ffffff !important;
+  border-radius: 10px;
+}
+
+.topbar p {
+  text-align: start;
+}
+
+.topbar button:hover {
+  background-color: #343f4a;
+}
+
+.topbarTooltip {
+  background-color: #292929 !important;
+  color: #ffffff !important;
+  max-width: 220;
+  font-size: 13px;
+  border: 1px solid #292929;
+  padding: 1rem;
+}
+
+.sidebarListItem {
+  border-radius: 10px !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #BEC3C9 !important;
+  font-size: 12px !important;
+}
+
+.sidebarListIcon {
+  color: #8B979E !important;
+}
+
+.sidebarListItem:hover {
+  background-color: #2B303B !important;
+  color: #2F9DE8 !important;
+  transition: .4s ease;
+}
+
+.sidebarListItem:hover .sidebarListIcon {
+  color: #2F9DE8 !important;
+  transition: .4s ease;
+}
+
+/* .topbarTooltip {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+} */
+
+.topbarTooltip:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid transparent;
+  border-bottom-color: #ccc;
+}
+

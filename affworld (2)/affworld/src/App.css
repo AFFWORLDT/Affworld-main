@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* RESPONSIVE AND COMMON CSS */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif !important;
+  font-display: swap;
+  background-color: #202530 !important;
+  color: #ffffff !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-weight: 700 !important;
+color: #233d62;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 !important;
+}
+
+p {
+  color: #687693;
+  line-height: 1.9em;
+}
+
+a{
+  text-decoration: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0 !important;
+}
+
+/* .MuiDrawer-root {
+  margin-top: 5rem;
+} */
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.divLoader {
+  background-color: #2842B1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.site-brand {
+  color: white !important;
+  font-size: 28px !important;
+  font-weight: bold;
+  padding-top: 0px !important;
+  
+}
+
+.menu-flags-button, .menu-flags > ul, .menu-flags > ul > div, .menu-flags input  {
+  background-color: #2b303b !important;
+  color: #fff !important;
+}
+
+.menu-flags input {
+  border: 0;
+}
+
+.menu-flags > ul > li:hover {
+  background-color: #4d5863;
+}
+
+.MuiTab-root {
+  font-weight: bold !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root {
+  background-color: #4d5863;
+  color: #fff;
+} 
+
+.MuiButtonBase-root.MuiTab-root.Mui-selected {
+  color: #2F9DE8;
+}
+
+.MuiTableCell-root.MuiTableCell-body {
+  color: #fff !important;
+  padding-left: 2rem;
+  border-bottom-color: #343f4a;
+}
+
+.MuiTableCell-root.MuiTableCell-head {
+  padding-left: 2rem;
+  border-bottom-color: #343f4a;
+}
+
+.MuiTableCell-root.MuiTableCell-head > span {
+  justify-content: center;
+  display: inline-flex;
+}
+
+.MuiSelect-icon {
+  color: #fff !important;
+}
+
+.affworld-affiliate-link > input {
+  -webkit-text-fill-color: #fff !important
+}
+
+/* .MuiSelect-select.MuiInputBase-input {
+  padding-top: 8px;
+} */
+
+.MuiTableCell-head {
+  color: #6e7a83 !important;
+}
+
+.activeNavLink, .navLink:hover, .btn-theme, .upper-footer  ul > li > a:hover {
+  color: #FC6E36;
+}
+
+.btn-theme:hover,.extra-links > ul > li > a:hover,.site-footer, .site-footer a{
+  color: snow;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+@media (max-width: 577px) {
+  .slick-initialized {
+    overflow: hidden;
+  }
+
+  .slick-track {
+    padding-bottom: 50px;
+  }
+
+  .extra-links {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 772px) {
+  body {
+    font-size: 80% !important;
+  }
+}
+
+@media (max-width: 991px){
+  
+  body {
+    font-size: 90% !important;
+  }
+
+  .widget {
+    padding-left: 0 !important;
+  }
+
+  .copyright {
+    float: none !important;
+  }
+  
+  .extra-links {
+    float: none !important;
+  }
+
+  .extra-links ul {
+    display: inline-block;
+    padding-inline-start: 0px;
+  }
+
+  .extra-links > ul > li+li {
+    margin-left: 15px;
+  }                  
+
+  .extra-links > ul > li+li:before{
+    content: none;
+  }
+
+  .section-padding {
+    padding: 90px 0 !important;
+  }
+
+  
+}
